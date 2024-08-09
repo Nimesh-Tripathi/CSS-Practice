@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: x-large;
+    background-color: cadetblue;
+    height: 50px;
+}
+
+.grids{
+    display: grid;
+    grid-template-columns: 1200px 300px;
+    grid-gap: 5px;
+    
+}

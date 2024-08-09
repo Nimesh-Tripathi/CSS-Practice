@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: x-large;
+    background-color: cadetblue;
+    height: 50px;
+    width: 1036px;
+}
+
+.Blogs{
+    background-color: white;
+    display: grid;
+    grid-gap: 10px;
+    height: 315px;
+    width: 1036px;
+    
+    grid-template-rows: 150px 150px;
+    grid-template-columns: 500px 500px;
+}
+
+.cards{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#wr{
+    color: skyblue;
+}
+
+#gr{
+    color: green;
+}
+
+
+/* #Card1:hover{
+    background-color: lightgreen;
+    cursor: pointer;
+}
+#Card2:hover{
+    background-color: lightgreen;
+    cursor: pointer;
+}
+#Card3:hover{
+    background-color: lightgreen;
+    cursor: pointer;
+}
+#Card4:hover{
+    background-color: lightgreen;
+    cursor: pointer;
+} */
+
+#Card1{
+    cursor: pointer;
+    transition: transform 1s ease ;
+    background-color: lightgrey;
+}
+
+#Card1:hover{
+    background-color: lightgreen;
+    transform: scale(1.5) translateY(40px) rotate(360deg);
+}
+
+#Card2{
+    cursor: pointer;
+    transition: transform 1s ease ;
+    background-color: lightcoral;
+}
+
+#Card2:hover{
+    background-color: lightgreen;
+    transform: scale(1.5) translateY(40px) rotate(360deg);
+}
+
+#Card3{
+    cursor: pointer;
+    transition: transform 1s ease ;
+    background-color: lightseagreen;
+}
+
+#Card3:hover{
+    background-color: lightgreen;
+    transform: scale(1.5) translateY(40px) rotate(360deg);
+}
+
+#Card4{
+    cursor: pointer;
+    transition: transform 1s ease ;
+    background-color: lightslategrey;
+}
+
+#Card4:hover{
+    background-color: lightgreen;
+    transform: scale(1.5) translateY(40px) rotate(360deg);
+}
+
+

@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    text-shadow: black;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: larger;
+    font-style: italic;
+    background-color: lightcoral;
+    transition: all 1s ease;
+}
+
+button:hover{
+    background-color: lightskyblue;
+    color: white;
+    cursor: pointer;
+}

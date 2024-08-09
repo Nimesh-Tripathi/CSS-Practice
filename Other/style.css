@@ -1,0 +1,32 @@
+
+
+#card{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+img{
+    margin-top: 5px;
+    border-radius: 10px;
+    height: 290px;
+    width: 290px;
+    object-fit: cover;
+}
+
+button{
+    background-color: aqua;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+button:hover{
+    cursor: pointer;
+}
